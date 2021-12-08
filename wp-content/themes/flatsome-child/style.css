@@ -146,7 +146,3 @@ input[type=submit], .primary:hover{
 .image-tools a:last-child {
 	background-color:#0099cc;
 }
-.button.icon.circle {
-	background-color:#0099cc;
-	opacity:0.8;
-}
