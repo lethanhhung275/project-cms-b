@@ -10,10 +10,7 @@ Version: 3.0
 
 
 @media only screen and (max-width: 48em) {
-/*************** ADD MOBILE ONLY CSS HERE  ***************/
-
-
-}
+/*************** ADD MOBILE ONLY CSS HERE  ***************/}
 input[type=submit], input[type=submit].button, input[type=submit], .primary {
     background-color: #0099cc;
 }
@@ -32,4 +29,123 @@ input[type=submit], input[type=submit].button, input[type=submit], .primary {
 }
 .is-uppercase, h5.uppercase{
 	color:red;
+}
+/*Shop and Search CSS by TuAnh43*/
+.new-bubble{
+    background-color: #0099cc !important;
+    opacity: 0.7;
+}
+.on-sale{
+    background-color: yellow;
+    opacity: .6;
+    color: black;
+}
+.woocommerce-breadcrumb {
+    color: #0099cc;
+}
+.woocommerce-breadcrumb .divider{
+    color: black;
+}
+.grid-tools a{
+    background-color: #0099cc !important;
+    color: none !important;
+    opacity: 0.7;
+}
+.image-fade_in_back{
+    transition: transform .5s ease;
+}
+.image-fade_in_back:hover {
+    transform: scale(1.2);
+}
+.star-rating span::before{
+    color: #d9e72c;
+}
+.star-rating:before{
+    color: #d9e72c !important;
+}
+.box-image .out-of-stock-label{
+    background-color: red !important;
+    opacity: .5 !important;
+    color: white !important;
+}
+.woocommerce-pagination ul li .page-number{
+    border-color: #0099cc;  
+}
+.woocommerce-pagination ul li .page-number:hover{
+    background-color: #0099cc;
+}
+.woocommerce-pagination ul li .current{
+    background-color: #0099cc;
+    border-color: #0099cc;   
+}
+.box-text .name a{
+    color: black;
+    font-size: 20px;
+    transition:.5s;
+}
+.box-text .name a:hover{
+    color: #0099cc;
+    border-bottom: 2px #0099cc solid;
+}
+#select2-product_cat-container{
+    color: #0099cc;
+}
+.price-wrapper .price bdi{
+    font-size:20px;
+}
+#shop-sidebar .shop-sidebar{
+    color: #0099cc;
+}
+#shop-sidebar .is-divider{
+    background-color: #0099cc;
+}
+#woocommerce_product_categories-13 .cat-item a {
+    padding-left: 30px;
+}
+#woocommerce_product_categories-13 .cat-item{
+    transition:.5s ease;
+}
+#woocommerce_product_categories-13 .cat-item:hover{
+    background-color: #0099cc;
+    font-weight: 600;
+}
+#woocommerce_product_categories-13 .current-cat{
+    background-color: #0099cc;
+}
+
+/*Detail Product CSS by Lương*/
+.checkout-button, .button.checkout, .button.alt {
+    background-color:#0099cc;
+	border-radius:50px;
+}
+.button.checkout, .button.alt:hover {
+	color:#000000;
+}
+.product-main{
+	color: #000000;
+}
+.tabs>li.active>a{
+	font-size: 20px;
+	color:#0099cc;
+}
+.grid-tools a:hover{
+	font-weight:bold;
+	color: black;
+	background-color:#0099cc;
+}
+.stars a:hover:after, .stars a.active:after {
+    color: #d5dd5b;
+}
+input[type=submit], .primary {
+    background-color: #0099cc;
+}
+input[type=submit], .primary:hover{
+	color:black;
+}
+.image-tools a:last-child {
+	background-color:#0099cc;
+}
+.button.icon.circle {
+	background-color:#0099cc;
+	opacity:0.8;
 }
