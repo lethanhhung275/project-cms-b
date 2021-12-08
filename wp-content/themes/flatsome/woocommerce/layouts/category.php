@@ -1,6 +1,5 @@
 <div class="row category-page-row">
-
-		<div class="col large-3 hide-for-medium <?php flatsome_sidebar_classes(); ?>">
+	<div class="col large-3 hide-for-medium <?php flatsome_sidebar_classes(); ?>">
 			<?php flatsome_sticky_column_open( 'category_sticky_sidebar' ); ?>
 			<div id="shop-sidebar" class="sidebar-inner col-inner">
 				<?php
@@ -12,7 +11,6 @@
 			</div>
 			<?php flatsome_sticky_column_close( 'category_sticky_sidebar' ); ?>
 		</div>
-
 		<div class="col large-9">
 		<?php
 		/**
