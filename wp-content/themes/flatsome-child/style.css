@@ -14,3 +14,38 @@ Version: 3.0
 
 
 }
+.checkout-button, .button.checkout, .button.alt {
+    background-color:#0099cc;
+	border-radius:50px;
+}
+.button.checkout, .button.alt:hover {
+	color:#000000;
+}
+.product-main{
+	color: #000000;
+}
+.tabs>li.active>a{
+	font-size: 20px;
+	color:#0099cc;
+}
+.grid-tools a:hover{
+	font-weight:bold;
+	color: black;
+	background-color:#0099cc;
+}
+.stars a:hover:after, .stars a.active:after {
+    color: #d5dd5b;
+}
+input[type=submit], .primary {
+    background-color: #0099cc;
+}
+input[type=submit], .primary:hover{
+	color:black;
+}
+.image-tools a:last-child {
+	background-color:#0099cc;
+}
+.button.icon.circle {
+	background-color:#0099cc;
+	opacity:0.8;
+}
