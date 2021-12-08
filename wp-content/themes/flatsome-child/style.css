@@ -14,3 +14,22 @@ Version: 3.0
 
 
 }
+input[type=submit], input[type=submit].button, input[type=submit], .primary {
+    background-color: #0099cc;
+}
+.section-title-bold-center span, .section-title-bold span {
+    border: 2px solid #0099cc;
+    padding: 0.3em 0.8em;
+}
+.section-title b {
+    display: block;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 2px;
+	opacity:1;
+    background-color: #0099cc;
+}
+.is-uppercase, h5.uppercase{
+	color:red;
+}
