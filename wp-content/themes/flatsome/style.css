@@ -18,3 +18,7 @@ License URI:          http://themeforest.net/licenses
 All custom CSS should be added to Flatsome > Advanced > Custom CSS,
 or in the style.css of a Child Theme.
 ***************/
+.single_add_to_cart_button .button .alt:hover{
+color: #000000;
+background:#44d4a6;
+}
