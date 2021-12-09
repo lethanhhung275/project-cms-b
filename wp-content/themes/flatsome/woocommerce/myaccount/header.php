@@ -45,7 +45,7 @@ if ( function_exists( 'wc_get_account_menu_items' ) && get_theme_mod( 'wc_accoun
 		<div class="flex-col flex-grow <?php if ( get_theme_mod( 'logo_position' ) == 'center' ) { echo 'text-center'; } else { echo 'medium-text-center'; } ?>">
 			<?php if ( is_user_logged_in() ) : ?>
 
-				<h1 class="uppercase mb-0"><?php the_title(); ?></h1>
+				<h1 class="uppercase mb-0"><?php wp_get_current_user(); ?></h1>
 				<?php if ( ! empty ( $endpoint_label ) ) echo '<small class="uppercase">' . esc_html( $endpoint_label ) . '</small>'; ?>
 
 			<?php else : ?>
