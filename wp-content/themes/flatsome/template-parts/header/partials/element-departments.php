@@ -8,17 +8,17 @@
   		<ul class="nav nav-vertical nav-uppercase tabs">
 			
 				<li class="description_tab active">
-					<a href="#tab-description">Description</a>
+					<a href="#tab-description">Mô Tả</a>
 				</li>
 
 			
 				<li class="additional_information_tab">
-					<a href="#tab-additional_information">Additional Information</a>
+					<a href="#tab-additional_information">Thông Tin</a>
 				</li>
 
 			
 				<li class="reviews_tab">
-					<a href="#tab-reviews">Reviews (3)</a>
+					<a href="#tab-reviews">Nhận Xét (3)</a>
 				</li>
 
 		</ul>
