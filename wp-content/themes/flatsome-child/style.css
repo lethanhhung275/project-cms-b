@@ -147,6 +147,9 @@ input[type=submit], .primary:hover{
 .image-tools a:last-child {
 	background-color:#0099cc;
 }
+.pt-half {
+    color: #0099cc;
+}
 /* CSS by Hung*/
 .inline-block {
     display: none;
@@ -174,6 +177,19 @@ span.amount {
     white-space: nowrap;
     color: red;
     font-weight: bold;
+}
+.quantity .button.plus{
+    background-color: #0099cc;
+}
+.quantity .button.minus{
+    background-color: #0099cc;
+}
+.button.is-form:hover {
+    color: #000;
+    background-color: #f1f1f1;
+}
+.quantity .button.plus:hover{
+    background-color: #0099cc;
 }
 ul.product_list_widget li a:not(.remove) {
     display: block;
@@ -219,9 +235,7 @@ ul.product_list_widget li a:not(.remove) :hover{
     color: black;
 }
 
-.pt-half {
-    color: #0099cc;
-}
+
 .widget_price_filter .price_slider_amount .button {
     background-color: #0099cc;
 }
