@@ -146,6 +146,7 @@ input[type=submit], .primary:hover{
 .image-tools a:last-child {
 	background-color:#0099cc;
 }
+/* CSS by Hung*/
 .inline-block {
     display: none;
 }
@@ -186,3 +187,30 @@ ul.product_list_widget li a:not(.remove) {
 ul.product_list_widget li a:not(.remove) :hover{
     color: #0099cc;
 }
+/*By Tris*/
+#my-account-nav>li:hover{
+    background-color: #0099cc;
+    font-weight: bold;
+    }
+#my-account-nav>li>a{
+    padding-left: 30px;
+}
+#my-account-nav>.is-active {
+    background-color: #0099cc !important;   
+    
+}
+.dashboard-links>li>a:hover{
+    background-color: #0099cc;
+}
+.button, input[type=submit], input[type=submit].button, input[type=reset].button, input[type=button].button {
+    background-color: #0099cc;
+}
+.account-item>ul>li:hover{
+    background-color: #0099cc;
+}
+.woocommerce-mini-cart__buttons>.button{
+    border-radius: 50px;
+    color: black;
+}
+
+    
