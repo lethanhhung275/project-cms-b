@@ -1,0 +1,17 @@
+2021-12-09T13:31:11+00:00 CRITICAL syntax error, unexpected end of file in C:\wamp64\www\project-cms-b\wp-content\themes\flatsome-child\functions.php on line 4
+
+2021-12-09T16:15:19+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in C:\wamp64\www\project-cms-b\wp-content\themes\flatsome\woocommerce\layouts\category.php on line 7
+
+2021-12-09T16:15:56+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in C:\wamp64\www\project-cms-b\wp-content\themes\flatsome\woocommerce\layouts\category.php on line 7
+
+2021-12-09T16:33:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in C:\wamp64\www\project-cms-b\wp-content\themes\flatsome\woocommerce\myaccount\header.php on line 48 and exactly 1 expected in C:\wamp64\www\project-cms-b\wp-includes\plugin.php:435
+Stack trace:
+#0 C:\wamp64\www\project-cms-b\wp-content\themes\flatsome\woocommerce\myaccount\header.php(48): do_action()
+#1 C:\wamp64\www\project-cms-b\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\project-cms-b\wp-content\themes\flatsome\page-my-account.php(11): wc_get_template('myaccount/heade...')
+#3 C:\wamp64\www\project-cms-b\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\p...')
+#4 C:\wamp64\www\project-cms-b\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\p...')
+#5 C:\wamp64\www\project-cms-b\index.php(17): require('C:\\wamp64\\www\\p...')
+#6 {main}
+  thrown in C:\wamp64\www\project-cms-b\wp-includes\plugin.php on line 435
+
