@@ -1,0 +1,50 @@
+2021-12-10T14:29:46+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php:404
+Stack trace:
+#0 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php(404): explode('/', 'C:/wamp64/www/p...')
+#1 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php(389): Loco_fs_File::explode('C:/wamp64/www/p...', Array)
+#2 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileList.php(63): Loco_fs_File->normalize()
+#3 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileList.php(84): Loco_fs_FileList->hash(Object(Loco_fs_Directory))
+#4 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileFinder.php(381): Loco_fs_FileList->add(Object(Loco_fs_Directory))
+#5 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileFinder.php(397): Loco_fs_FileFinder->read()
+#6 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\F in C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php on line 404
+
+2021-12-10T14:30:10+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php:404
+Stack trace:
+#0 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php(404): explode('/', 'C:/wamp64/www/p...')
+#1 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php(389): Loco_fs_File::explode('C:/wamp64/www/p...', Array)
+#2 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileList.php(63): Loco_fs_File->normalize()
+#3 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileList.php(84): Loco_fs_FileList->hash(Object(Loco_fs_Directory))
+#4 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileFinder.php(381): Loco_fs_FileList->add(Object(Loco_fs_Directory))
+#5 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileFinder.php(397): Loco_fs_FileFinder->read()
+#6 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\F in C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php on line 404
+
+2021-12-10T14:32:38+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php:404
+Stack trace:
+#0 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php(404): explode('/', 'C:/wamp64/www/p...')
+#1 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php(389): Loco_fs_File::explode('C:/wamp64/www/p...', Array)
+#2 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileList.php(63): Loco_fs_File->normalize()
+#3 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileList.php(84): Loco_fs_FileList->hash(Object(Loco_fs_Directory))
+#4 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileFinder.php(381): Loco_fs_FileList->add(Object(Loco_fs_Directory))
+#5 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileFinder.php(397): Loco_fs_FileFinder->read()
+#6 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\F in C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php on line 404
+
+2021-12-10T14:34:59+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php:404
+Stack trace:
+#0 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php(404): explode('/', 'C:/wamp64/www/p...')
+#1 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php(389): Loco_fs_File::explode('C:/wamp64/www/p...', Array)
+#2 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileList.php(63): Loco_fs_File->normalize()
+#3 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileList.php(84): Loco_fs_FileList->hash(Object(Loco_fs_Directory))
+#4 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileFinder.php(381): Loco_fs_FileList->add(Object(Loco_fs_Directory))
+#5 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileFinder.php(397): Loco_fs_FileFinder->read()
+#6 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\F in C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php on line 404
+
+2021-12-10T14:39:51+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php:404
+Stack trace:
+#0 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php(404): explode('/', 'C:/wamp64/www/p...')
+#1 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php(389): Loco_fs_File::explode('C:/wamp64/www/p...', Array)
+#2 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileList.php(63): Loco_fs_File->normalize()
+#3 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileList.php(84): Loco_fs_FileList->hash(Object(Loco_fs_Directory))
+#4 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileFinder.php(381): Loco_fs_FileList->add(Object(Loco_fs_Directory))
+#5 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\FileFinder.php(397): Loco_fs_FileFinder->read()
+#6 C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\F in C:\wamp64\www\project-cms-b\wp-content\plugins\loco-translate\src\fs\File.php on line 404
+
