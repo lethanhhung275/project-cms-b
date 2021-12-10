@@ -147,6 +147,7 @@ input[type=submit], .primary:hover{
 .image-tools a:last-child {
 	background-color:#0099cc;
 }
+/* CSS by Hung*/
 .inline-block {
     display: none;
 }
@@ -216,4 +217,15 @@ ul.product_list_widget li a:not(.remove) :hover{
 .woocommerce-mini-cart__buttons>.button{
     border-radius: 50px;
     color: black;
+}
+
+.pt-half {
+    color: #0099cc;
+}
+.widget_price_filter .price_slider_amount .button {
+    background-color: #0099cc;
+}
+.widget_price_filter .price_slider_amount .button:hover {
+   
+    color : #000;
 }
