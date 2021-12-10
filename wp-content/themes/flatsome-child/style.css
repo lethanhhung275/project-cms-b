@@ -218,3 +218,14 @@ ul.product_list_widget li a:not(.remove) :hover{
     border-radius: 50px;
     color: black;
 }
+
+.pt-half {
+    color: #0099cc;
+}
+.widget_price_filter .price_slider_amount .button {
+    background-color: #0099cc;
+}
+.widget_price_filter .price_slider_amount .button:hover {
+   
+    color : #000;
+}
